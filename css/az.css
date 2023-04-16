@@ -1,0 +1,48 @@
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+  /* margin: 0; */
+  background-color: #f3f3f3;
+}
+
+.isometric-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.isometric-menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.isometric-menu__item:hover {
+  transform: rotateX(90deg);
+}
+
+.facebook {
+  background-color: #1877f2;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.instagram {
+  background-color: #e1306c;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}

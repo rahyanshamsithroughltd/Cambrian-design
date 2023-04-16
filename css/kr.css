@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Sarabun&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sarabun', sans-serif;;
+}
+
+.card_bg{
+    background-color:#f3ecef;;
+}
+
+
+.tx-color{
+    color:darkgray;
+}
